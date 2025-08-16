@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "25d15a93-f5fa-48cd-9e0e-f29ab086e8ba",
+		"name": "gemini-chatbot-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36408662"
+	},
+	"item": [
+		{
+			"name": "postman api chat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"messages\": [\r\n    { \"role\": \"user\", \"content\": \"cara membuat web dengan gemini?\" }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
